@@ -8,6 +8,9 @@ public class Report4 {
 
         } catch (NumberFormatException e) {
             System.out.println(e.getMessage());
+
+        } catch (NullPointerException e){
+            System.out.println(e.getMessage());
         }
     }
 }
