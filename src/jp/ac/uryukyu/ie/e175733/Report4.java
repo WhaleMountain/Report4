@@ -6,7 +6,7 @@ public class Report4 {
             String str="3．14";
             double value=Double.parseDouble(str);
 
-        } catch (Exception e) {
+        } catch (NumberFormatException e) {
             System.out.println(e.getMessage());
         }
     }
