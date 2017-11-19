@@ -6,10 +6,10 @@ public class Report4 {
             String str="3．14";
             double value=Double.parseDouble(str);
 
-        } catch (NumberFormatException e) {
+        } catch (NullPointerException e) {
             System.out.println(e.getMessage());
 
-        } catch (NullPointerException e){
+        } catch (NumberFormatException e){
             System.out.println(e.getMessage());
         }
     }
